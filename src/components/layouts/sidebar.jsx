@@ -39,7 +39,7 @@ function SharedLayout() {
           <div className="flex h-14 items-center border-b px-4 lg:h-[60px] lg:px-6">
             <a href="/" className="flex items-center gap-2 font-semibold">
               <Package2 className="h-6 w-6" />
-              <span className="">Acme Inc</span>
+              <span className="">Expense Tracker</span>
             </a>
           </div>
           <div className="flex-1">
@@ -49,7 +49,28 @@ function SharedLayout() {
                 className="flex items-center gap-3 rounded-lg bg-muted px-3 py-2 text-primary transition-all hover:text-primary"
               >
                 <Home className="h-4 w-4" />
-                Home
+                Dashboard
+              </a>
+              <a
+                href="#"
+                className="flex items-center gap-3 rounded-lg px-3 py-2 text-muted-foreground transition-all hover:text-foreground"
+              >
+                <LineChart className="h-4 w-4" />
+                Reports
+              </a>
+              <a
+                href="#"
+                className="flex items-center gap-3 rounded-lg px-3 py-2 text-muted-foreground transition-all hover:text-foreground"
+              >
+                <ShoppingCart className="h-4 w-4" />
+                Expenses
+              </a>
+              <a
+                href="#"
+                className="flex items-center gap-3 rounded-lg px-3 py-2 text-muted-foreground transition-all hover:text-foreground"
+              >
+                <Users className="h-4 w-4" />
+                Team
               </a>
             </nav>
           </div>
